@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touha.Tools.Csb.Lib", "Touha.Tools.Csb.Lib\Touha.Tools.Csb.Lib.csproj", "{168B027E-A639-4234-8E92-17B9F0A07C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touha.Tools.Csb.UI", "Touha.Tools.Csb.UI\Touha.Tools.Csb.UI.csproj", "{AEEA355D-6FF6-4926-9703-743AB275EFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touha.Tools.Csb.Biz", "Touha.Tools.Csb.Biz\Touha.Tools.Csb.Biz.csproj", "{B86DFF4E-8A59-4B83-8BDB-F963DD65290D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touha.Tools.Csb.Dal", "Touha.Tools.Csb.Dal\Touha.Tools.Csb.Dal.csproj", "{75513D1F-865A-4264-8674-4B8A463112C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Touha.Tools.Csb.Tests", "Touha.Tools.Csb.Tests\Touha.Tools.Csb.Tests.csproj", "{B68A960A-6054-4F18-9AF1-C3A77D145E86}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168B027E-A639-4234-8E92-17B9F0A07C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168B027E-A639-4234-8E92-17B9F0A07C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168B027E-A639-4234-8E92-17B9F0A07C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168B027E-A639-4234-8E92-17B9F0A07C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEA355D-6FF6-4926-9703-743AB275EFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEA355D-6FF6-4926-9703-743AB275EFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEA355D-6FF6-4926-9703-743AB275EFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEA355D-6FF6-4926-9703-743AB275EFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86DFF4E-8A59-4B83-8BDB-F963DD65290D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86DFF4E-8A59-4B83-8BDB-F963DD65290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86DFF4E-8A59-4B83-8BDB-F963DD65290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86DFF4E-8A59-4B83-8BDB-F963DD65290D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75513D1F-865A-4264-8674-4B8A463112C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75513D1F-865A-4264-8674-4B8A463112C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75513D1F-865A-4264-8674-4B8A463112C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75513D1F-865A-4264-8674-4B8A463112C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68A960A-6054-4F18-9AF1-C3A77D145E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68A960A-6054-4F18-9AF1-C3A77D145E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68A960A-6054-4F18-9AF1-C3A77D145E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68A960A-6054-4F18-9AF1-C3A77D145E86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
